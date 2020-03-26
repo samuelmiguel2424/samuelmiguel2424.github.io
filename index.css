@@ -1,0 +1,69 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	
+}
+body{
+	background-image: url(imagens/fundo.png);
+	background-size: cover;
+}
+#titulo1{
+	color: white;
+	font-size: 80px;
+	font-family: Terembura Regular
+}
+#subtitulo1{
+	color: white;
+	font-size:40px;
+	font-family: lato;
+	letter-spacing: 1px;
+}
+#texto1{
+	color: white;
+	text-align: justify;
+	font-family: Terembura Regular;
+	font-size: 20px;
+}
+		#logar{
+			width: 35%;
+			height: 34px;
+			color:	gray;
+			background-color: white;
+			border-radius:10px;
+			outline: none;
+			opacity: 0.9;
+			font-size: 23px;
+			font-family: Terembura Regular ;
+			text-decoration:none;
+
+		}
+		#logar:hover{
+			color: white;
+			background-color: gray;
+			opacity: 0.7;
+		}
+#port a{
+	padding: 10px;
+	color: white;
+	font-size: 30px;
+	font-family: lato;
+}
+figure.foto-legenda{
+	position: relative;
+	box-shadow: 1px 1px 4px solid black;
+}
+figure.foto-legenda figcaption{
+	opacity: 0;
+	position: absolute;
+	top: 0px;
+	
+	color: white;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	transition: 1s;
+}
+figure.foto-legenda:hover figcaption{
+	opacity: 1;
+}
+	
